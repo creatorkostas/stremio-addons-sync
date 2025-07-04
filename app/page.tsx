@@ -133,7 +133,7 @@ export default function Page() {
                   type="file"
                   accept=".json,application/json"
                   onChange={handleFileUpload}
-                  className="file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-primary file:text-primary-foreground hover:file:bg-primary/90"
+                  className="file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-primary file:text-primary-foreground hover:file:bg-primary/90 h-auto"
                 />
                 {fileName && (
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
